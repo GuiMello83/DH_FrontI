@@ -1,0 +1,28 @@
+body{
+    height: 1200px;
+}
+
+a:hover{
+    color:lime;
+}
+
+#p2::first-letter{
+    color: maroon;
+    font-size: 28px;
+}
+
+input:focus {
+    color: lime;
+    background-color: rgb(161, 17, 77);
+  }
+
+input:checked {
+    margin-left: 25px;
+    border: 1px solid lightgray;
+  }
+  
+li:nth-child(3){
+    background-color: lightsalmon;
+}
+
+p

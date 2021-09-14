@@ -1,0 +1,88 @@
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        textarea,
+        select,
+        option {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+       .campo
+            {
+            padding: 0 15px;
+            border: 2px #cccccc solid;
+            border-radius: 10px;
+            height: 35px;
+            font-family: Tahoma;
+            font-size: 14px;
+            width: 316px;
+        }
+        .campo:hover{
+            background-color: #ddddff;
+        }
+
+        textarea {
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+        }
+
+        textarea,
+        select>legend {
+            border: 2px #cccccc solid;
+            border-radius: 10px;
+        }
+
+        select>legend {
+            height: 35px;
+            font-family: Tahoma;
+            font-size: 14px;
+        }
+
+
+        textarea:hover,
+        select:hover {
+            background-color: #ddddff;
+        }
+
+        select {
+            padding: 4px 20px;
+        }
+
+        option {
+            height: 30px;
+            padding: 5px 4px;
+        }
+
+        option:not(:checked),
+        textarea:focus {
+            background-color: #ffcccc;
+        }
+
+
+       input[type="text"]:focus,
+        input[type="tel"]:focus,
+        input[type="email"]:focus,
+        textarea:focus,
+        select:focus
+        {
+            border: 2px #ccaaaa solid;
+        }
+
+
+        h1 {
+            font-style: italic;
+        }
+
+        fieldset {
+            border: 2px #af3333 solid;
+            border-radius: 10px;
+            width: 50%;
+            text-rendering: auto;
+        }
+.bottle{
+    align-content: center;
+}

@@ -1,0 +1,52 @@
+/* transform
+transition
+animation */
+
+main {
+    width: 1000px;
+    height: 1000px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:black;
+    opacity: 0%;
+}
+
+.circle:hover {
+    animation: deslizar 5s normal;
+}
+
+@keyframes deslizar {
+    0% {opacity: 0%;}
+    33% {opacity: 33%;}
+    66% {opacity: 66%; transform: translateX(350px);}
+    100% {opacity: 100%;}
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    transform: scale(1.5) skew(150deg);
+}
+
+button{
+    margin-top: 75px;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: springgreen;
+    color: tomato;
+    transition: color 3s, background-color 2s;
+}
+
+button:hover{
+    background-color: violet;
+    color: gray;
+}

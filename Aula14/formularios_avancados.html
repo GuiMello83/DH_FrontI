@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Checkboxes</legend>
+            <input type="checkbox" id="check" />
+            <label for="check">Termos</label>
+        </fieldset>
+        <input 
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+        />
+        <input type="text" required />
+        <input minlength="6" />
+        <input type="text" pattern="pera|banana" /> <!-- pattern exige que você coloque um dos ítens que está descrito -->
+        <input type="email" required />
+        <button type="submit">Submit</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>
